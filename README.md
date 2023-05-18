@@ -1,6 +1,5 @@
 # Learning Schematic and Contextual Representations for Text-to-SQL Parsing
 
-## What each file does ?
 ### Folders
 - configs: this folder consists of base configuration files required for ratsql which sets the model parameters [1]
 - contributions: this folder consists of our experiments
@@ -10,23 +9,24 @@
 - roberta: follows the same structure required for running RoBERTa model [1][4]
 - ratsql: follows the same structure required for running WikiSQL+glove, Spider+glove, Spider+BERT model [1]
 
-Common structure followed throughout for the root folder, gap,  and roberta is as follows
+Above common structure is followed for ratsql, gap/rat-sql-gap, grappa/spider, grappa/spider_ssp
 
-For grappa, the structure followed is as below:
+## Which files were written by your group ?
+Under contributions
+- error_analysis consists of the file that automates and annotations for error analysis
+- EDA/ consists of the python script to generate stats mentioned under datasets section
+- training/ consists of the colab notebook setup for training RoBERTa
+- Evaluation/ consists of data derived of running evaluation
+- experiments consists of files to run experiments with respect to question/subquestion answering, loss visualization and paraphrasing or rewritten utterances
+- inference - consists of inference scripts written for different models
+- sparc_preprocessing - consists of the script needed for preprocesssing sparc to spider equivalent
+- environment_setup_helper - consists of code for setting up environment on colab
+- Results - consists of results from running evaluation metrics
 
-
-
-## Which files were writting by your group ?
-- contributions/error_analysis consists of the file that automates the error analysis and annotations for few samples.
-- contributions/loss_visualization consists of files to help visualize loss plots
-
-
-## Which files were tweaked/configured by your group ?
-- we updated the Dockerfile to make the ratsql docker instance run
 
 ## References:
 1. https://github.com/microsoft/rat-sql
 2. https://github.com/awslabs/gap-text2sql/
-3. ...
+3. https://github.com/taoyds/grappa/tree/main/grappa
 4. https://github.com/ReinierKoops/rat-sql.git
 5. https://github.com/taoyds/spider
