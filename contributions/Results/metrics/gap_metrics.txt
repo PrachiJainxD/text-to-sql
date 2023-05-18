@@ -1,0 +1,115 @@
+-------------- METRICS --------------
+
+Across all hardness level
+Total number of queries: 1026
+
+Overal scores
+---------------
+(Logical form) Exact match accuarcy: 0.72
+Execution accuarcy: 0.38
+
+Component matching accuracy 
+----------------------------
+select: 0.92
+select(no AGG): 0.941
+where: 0.811
+where(no OP): 0.844
+group(no Having): 0.845
+group: 0.811
+order: 0.855
+and/or: 0.978
+IUEN: 0.435
+keywords: 0.909
+
+===========================================
+
+HARDNESS: easy
+Total number of queries: 248
+
+Overal scores
+---------------
+(Logical form) Exact match accuarcy: 0.915
+Execution accuarcy: 0.496
+
+Component matching accuracy 
+----------------------------
+select: 0.96
+select(no AGG): 0.988
+where: 0.954
+where(no OP): 0.972
+group(no Having): 0.864
+group: 0.864
+order: 0.846
+and/or: 1.0
+IUEN: 0.0
+keywords: 0.949
+
+===========================================
+
+HARDNESS: medium
+Total number of queries: 441
+
+Overal scores
+---------------
+(Logical form) Exact match accuarcy: 0.748
+Execution accuarcy: 0.374
+
+Component matching accuracy 
+----------------------------
+select: 0.9
+select(no AGG): 0.923
+where: 0.856
+where(no OP): 0.872
+group(no Having): 0.835
+group: 0.793
+order: 0.813
+and/or: 0.982
+IUEN: 0.0
+keywords: 0.944
+
+===========================================
+
+HARDNESS: hard
+Total number of queries: 172
+
+Overal scores
+---------------
+(Logical form) Exact match accuarcy: 0.628
+Execution accuarcy: 0.442
+
+Component matching accuracy 
+----------------------------
+select: 0.983
+select(no AGG): 0.983
+where: 0.696
+where(no OP): 0.772
+group(no Having): 0.949
+group: 0.923
+order: 0.94
+and/or: 0.988
+IUEN: 0.548
+keywords: 0.871
+
+
+===========================================
+
+HARDNESS: extra
+Total number of queries: 165
+
+Overal scores
+---------------
+(Logical form) Exact match accuarcy: 0.448
+Execution accuarcy: 0.158
+
+Component matching accuracy 
+----------------------------
+select: 0.848
+select(no AGG): 0.873
+where: 0.651
+where(no OP): 0.698
+group(no Having): 0.805
+group: 0.768
+order: 0.845
+and/or: 0.927
+IUEN: 0.412
+keywords: 0.83
